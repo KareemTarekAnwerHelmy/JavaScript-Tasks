@@ -1,0 +1,31 @@
+#gameArea {
+    width: 1000px;
+    height: 400px;
+    border: 2px solid black;
+    position: relative;
+    background: #87d7eb;
+    overflow: hidden;
+    cursor: crosshair;
+}
+#bird {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    user-select: none;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#score {
+    padding: 10px;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+}
+.bullet {
+    width: 5px;
+    height: 5px;
+    background: black;
+    position: absolute;
+    border-radius: 50%;
+}
